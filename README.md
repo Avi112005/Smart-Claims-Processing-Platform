@@ -44,3 +44,8 @@ Create a .env file:
 ```bash
 GEMINI_API_KEY=AIzaSyChXOYoFcK-aSpqAMzw0tC-xjYcurFloeA
 ```
+
+### Run the App
+```bash
+uvicorn main:app --reload
+```
